@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADISTER</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+<nav>
+  <div class="logo">HOTEL CADISTER</div>
+  <div><label for="dropdownfood">What are you looking for :</label>
+    <select onchange="choosefood()" id="dropdownfood"  required>
+      <option value="" selected disabled hidden></option>
+      <option value="beverages">beverages</option>
+      <option value="rice items">rice items</option>
+      <option value="curry">curry</option>
+      <option value="snacks">snacks</option>
+      <option value="sweet">sweets</option>
+      <option value="rotis">rotis</option>
+      <option value="dessert">dessert</option>
+    </select>
+  </div>
+
+</nav>
+<div class="menubody"></div>
+
+
+
+<script src="menu.js"></script>
+</body>
+</html>
+<!-- no name given for select tag -->

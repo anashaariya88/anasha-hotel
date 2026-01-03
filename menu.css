@@ -1,0 +1,4 @@
+body{background-image:url(hotel\ bg.jpg);
+background-size: cover;}
+nav{display:flex;flex-direction: column;}
+.logo{font-size: 50px;}
